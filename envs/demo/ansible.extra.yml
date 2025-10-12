@@ -1,6 +1,0 @@
----
-# Demo environment Ansible variables
-# These override defaults in group_vars/
-
-# Example: production-like settings
-# ansible_verbosity: 1

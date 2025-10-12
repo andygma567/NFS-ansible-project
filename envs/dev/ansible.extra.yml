@@ -1,6 +1,0 @@
----
-# Dev environment Ansible variables
-# These override defaults in group_vars/
-
-# Example: enable debug mode
-# ansible_verbosity: 2
