@@ -17,6 +17,11 @@ collections/ansible_collections/*
 collections/ansible_collections/myorg/*
 !collections/ansible_collections/myorg/myproject
 
+# Ansible roles (third-party, installed via ansible-galaxy)
+ansible/roles/*
+# Uncomment lines below to keep custom roles in version control
+# !ansible/roles/my_custom_role/
+
 # https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore
 # Byte-compiled / optimized / DLL files
 __pycache__/
