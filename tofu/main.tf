@@ -49,7 +49,8 @@ resource "digitalocean_droplet" "slurm_compute_node" {
 
 resource "local_file" "ansible_inventory" {
   # Where to save the generated inventory file
-  filename = "${path.module}/inventory.yaml"
+  # Saves to ../build/inventory.yaml so Ansible can find it
+  filename = "${path.module}/../build/inventory.yaml"
 
   # Generate content using the template file
   content = templatefile("${path.module}/inventory.tftpl", {
